@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+        
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.slim.min.js",
+              "./node_modules/popper.js/dist/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "boot"
+    }
+  },
+  "defaultProject": "boot",
+  "cli": {
+    "analytics": "b3326d15-2d08-4ef1-8b3d-c0f1f1b7ffa4"
+  }
 }
